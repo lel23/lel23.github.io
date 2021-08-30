@@ -6,12 +6,12 @@
 
 ## TODO
 
--- Importing React to deal with employment
--- Work on highlighting and unhighlight the job description when clicked on
--- Work on how its displayed when resized
--- Aligning elements using flexbox
--- Ppoulate the page
--- CSS
--- Maybe some JS
--- Beginning animation
--- Logo
+- Importing React to deal with employment
+- Work on highlighting and unhighlight the job description when clicked on
+- Work on how its displayed when resized
+- Aligning elements using flexbox
+- Ppoulate the page
+- CSS
+- Maybe some JS
+- Beginning animation
+- Logo
