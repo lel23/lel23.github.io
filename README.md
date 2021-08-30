@@ -1,4 +1,4 @@
-<div style="align: center;">
+<div align="center">
 <h1>lel23.github.io - v2</h1>
 <hr>
 <p>Inspired by <a href="https://brittanychiang.com/">Brittany Chiang</a> and <a href="https://www.christinavanessa.com/">Christina Vanessa</a></p>
