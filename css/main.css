@@ -1,76 +1,18 @@
-#jumbo1 {
-  text-align: left;
-  background-image: url('../images/gradient2.html');
-  background-repeat: repeat-x;
-  background-size: 70% 100%;
-  margin: 0px;
-  color: #fff;
+body {
+  margin: 15em 7% 1em;
 }
-.jumbotron {
-  background-color: white;
+
+footer {
+  margin: 1em auto 1em;
 }
-.jumbotron h1 {
-  color: #5a5a5a;
-  text-decoration: none;
-  font-weight: bold;
+
+.nav-item {
+  margin-right: 10px;
+  border-top: 2px solid #f3b200;
 }
-#jumbo1 h1 {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-#jumbo2 {
-  padding-top: 0px;
-}
-#jumbo2 .col-md-4 {
-  margin-top: 35px;
-}
-#swift {
-  color: #ffac45;
-  font-weight: bold;
-}
-#ruby {
-  color: #701516;
-  font-weight: bold;
-}
-#github {
-  color: #333;
-}
-#shopify {
-  color: #96bf48;
-}
-#wwdc {
-  color: #1da1f2;
-}
-.jumbotron hr {
-  width: 75%;
-  height: 3px;
-  border: 0 none;
-  background: #5a5a5a;
-  padding-bottom: 0px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-.jumbotron img {
-  width: 260px;
-  height: auto;
-  vertical-align: middle;
-  border: 10px solid #eee;
-  border-radius: 130px;
-}
-.jumbotron p {
-  margin-top: 10px;
-  text-align: left;
-}
-@media (max-width: 767px) {
-  .jumbotron {
-    margin-top: 25px;
-  }
-  #jumbo2 p {
-    margin-top: 15px;
-    text-align: center;
-  }
-  .navbar-right {
-    visibility: hidden;
-  }
+
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f3b200;
 }
