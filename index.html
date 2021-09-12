@@ -42,13 +42,6 @@
 </header>
 
 <body>
-  <script>
-    /*
-    function jobHighlight(){
-      document.getElementById("job-description").style.border = "3px dashed #f3b200"; 
-    }
-    */
-  </script>
   <h2>This website is a work in progress!</h2>
   <div>
     <div class="introduction">
@@ -80,14 +73,32 @@
     <img src="https://avatars.githubusercontent.com/u/70110705?v=4">
   </div>
 
+  <script>
+    // code from https://www.npmjs.com/package/react-alice-carousel
+    import React from 'react';
+    import AliceCarousel from 'react-alice-carousel';
+    import 'react-alice-carousel/lib/alice-carousel.css';
+
+    const handleDragStart = (e) => e.preventDefault();
+
+    const items = [
+      <img src="assets/home_page.png" onDragStart={handleDragStart} />,
+      <img src="assets/student_page.png" onDragStart={handleDragStart} />,
+      <img src="assets/professor_page.png" onDragStart={handleDragStart} />,
+      <img src="assets/admin_page.png" onDragStart={handleDragStart} />,
+    ];
+
+    const Gallery = () => {
+      return (
+        <AliceCarousel mouseTracking items={items} />
+      );
+    }
+  </script>
   <div class="experience">
     <h2><span class="code">02. </span>What I've Worked On</h2>
-    <img src="assets/home_page.png" alt="Home page of the Logic website">
-    <img src="assets/student_page.png" alt="Student page of the Logic website">
-    <img src="assets/professor_page.png" alt="Professor page of the Logic website">
-    <img src="assets/admin_page.png" alt="Admin page of the Logic website">
-    </div>
+    
   </div>
+
   <div class="work">
     <h2><span class="code">03. </span>Where I've Worked</h2>
 
@@ -101,7 +112,7 @@
 
       <!-- work on click=highlight and clickoutside=unhighlight -->
       <div class="job-description" id="it" onclick="jobHighlight()">
-        <h3>Help Desk Technician <a href="https://my.wlu.edu/its"><span class="company">@ University Computing</span></a></h3>
+        <h3>Help Desk Technician <a href="https://my.wlu.edu/its" target="_blank"><span class="company">@ University Computing</span></a></h3>
         <p class="code">April 2021 - Present</p>
         <ul>
           <li>Provide first and second level technichal support to over 200 faculty members and over 2000 students</li>
@@ -112,7 +123,7 @@
       </div>
 
       <div class="job-description" id="ta" onclick="jobHighlight()">
-        <h3>Teaching Assistant <a href="https://my.wlu.edu/computer-science-department"><span class="company">@ Washington and Lee University</span></a></h3>
+        <h3>Teaching Assistant <a href="https://my.wlu.edu/computer-science-department" target="_blank"><span class="company">@ Washington and Lee University</span></a></h3>
         <p class="code">August 2020 - Present</p>
         <ul>
           <li>Assist students taking both CSCI 111: Fundamentals of Programming and CSCI 112: Data Structure, both Python-focused courses, with their weekly labs</li>
@@ -123,7 +134,7 @@
       </div>
 
       <div class="job-description" id="floordirector" onclick="jobHighlight()">
-        <h3>Floor Director <a href="https://rockbridgereport.academic.wlu.edu/"><span class="company">@ Washington and Lee University</span></a></h3>
+        <h3>Floor Director <a href="https://rockbridgereport.academic.wlu.edu/" target="_blank"><span class="company">@ Washington and Lee University</span></a></h3>
         <p class="code">September 2019 - Present</p>
         <ul>
           <li>Coordinate newscast anchors and review scripts for live television broadcasts, twice weekly for 2 hours</li>
@@ -151,7 +162,7 @@
   <p>Inspired by <a href="https://brittanychiang.com/">Brittany Chiang</a> and <a href="https://www.christinavanessa.com/">Christina Vanessa</a></p>
 </footer>
 
-<!-- React-->
+<!-- React change from development.js to production.min.js when deploying-->
 <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
