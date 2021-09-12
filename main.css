@@ -1,0 +1,22 @@
+body {
+  margin: 15em 7% 1em;
+}
+
+footer {
+  margin: 1em auto 1em;
+}
+
+.nav-item {
+  margin-right: 10px;
+  border-top: 2px solid #f3b200;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f3b200;
+}
+
+.experience img {
+  width: 80%;
+  height: auto;
+}
