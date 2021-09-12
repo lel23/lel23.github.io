@@ -83,33 +83,58 @@
     <h2><span class="code">02. </span>What I've Worked On</h2>
     <p>picture of result<br>title<br>usage<br>skills</p>
   </div>
-  <div class="about-me">
+  <div class="work">
     <h2><span class="code">03. </span>Where I've Worked</h2>
     <p>{position} at {place}<br>date<br>responsibilities</p>
 
     <!-- we can flexbox this -->
     <div id="employment">
       <div id="job-list">
-        <button type="button">Company</button>
+        <button type="button">University Computing</button>
+        <button type="button">Washington and Lee - Computer Science</button>
+        <button type="button">Washington and Lee - Journalism</button>
       </div>
 
       <!-- work on click=highlight and clickoutside=unhighlight -->
-      <div id="job-description" onclick="jobHighlight()">
-        <h3>Title <a href="#"><span class="company">@ Company</span></a></h3>
-        <p class="code">Da - te</p>
+      <div class="job-description" id="it" onclick="jobHighlight()">
+        <h3>Help Desk Technician <a href="https://my.wlu.edu/its"><span class="company">@ University Computing</span></a></h3>
+        <p class="code">April 2021 - Present</p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Provide first and second level technichal support to over 200 faculty members and over 2000 students</li>
+          <li>Work as a member of a team to diagnose and fix both computer and network problems</li>
+          <li>Provide one-on-one user support through both phone and face to face contact</li>
+          <li>Train and mentor new help desk staff every spring</li>
         </ul>
       </div>
+
+      <div class="job-description" id="ta" onclick="jobHighlight()">
+        <h3>Teaching Assistant <a href="https://my.wlu.edu/computer-science-department"><span class="company">@ Washington and Lee University</span></a></h3>
+        <p class="code">August 2020 - Present</p>
+        <ul>
+          <li>Assist students taking both CSCI 111: Fundamentals of Programming and CSCI 112: Data Structure, both Python-focused courses, with their weekly labs</li>
+          <li>Work closely with Computer Science professors during the weekly 3-hour labs to help 20 students solve complex problems and answer any of their programming-related questions</li>
+          <li>Engage in discussions with the students to help further their understanding of difficult topics in Computer Science, which include object-oriented programming, data structures, algorithms, etc.</li>
+          <li>Hold evening office hours, once a week, to help students with coding and debugging their programming projects and answer any questions they have about topics in Computer Science</li>
+        </ul>
+      </div>
+
+      <div class="job-description" id="floordirector" onclick="jobHighlight()">
+        <h3>Floor Director <a href="https://rockbridgereport.academic.wlu.edu/"><span class="company">@ Washington and Lee University</span></a></h3>
+        <p class="code">September 2019 - Present</p>
+        <ul>
+          <li>Coordinate newscast anchors and review scripts for live television broadcasts, twice weekly for 2 hours</li>
+          <li>Directly influence show production by editing scripts and planning news blocks in pre-production and live broadcasts</li>
+          <li>Organize several technologies in order for the live broadcast to run smoothly, such as checking scripts, packages, microphones, camaras, and more</li>
+        </ul>
+      </div>
+
     </div>
     
   </div>
   <div class="about-me">
     <h2><span class="code">04. </span>What's Next?</h2>
     <p class="big-text">Get In Touch</p>
-    <p>Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+    <p>I am currently looking for internships for the summer of 2022! Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
     <button type="button"><a href="mailto:leslie.t.le2k@gmail.com">Say Hi!</a></button>
   </div>
 </body>
