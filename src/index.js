@@ -15,6 +15,13 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+// styles
+import "assets/css/bootstrap.min.css";
+import "assets/css/now-ui-kit.css";
+// import "assets/css/now-ui-kit.min.css";
+// import "assets/css/now-ui-kit.css.map";
+import "assets/demo/demo.css";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
